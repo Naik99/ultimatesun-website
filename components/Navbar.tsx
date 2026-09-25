@@ -23,7 +23,7 @@ export default function Navbar() {
   ]
 
   return (
-    <header className="fixed inset-x-0 top-3 z-50 flex justify-center pointer-events-none">
+    <header className="fixed inset-x-0 top-0 z-50 flex justify-center pointer-events-none">
       <nav className="pointer-events-auto w-full max-w-[1240px] mx-4 bg-white/8 backdrop-blur-xl backdrop-saturate-150 border border-white/10 rounded-2xl shadow-lg shadow-black/20">
         <div className="flex items-center justify-between h-[64px] px-5 md:px-8">
           <Link href="/" className="flex items-center gap-3">
